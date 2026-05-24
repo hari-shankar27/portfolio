@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sajal.harishankarbasnet.com.np/sitemap.xml

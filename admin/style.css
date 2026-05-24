@@ -1,0 +1,166 @@
+/* Page background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+   
+}
+.log{
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login box */
+form {
+    background: #fff;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Heading */
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input fields */
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+form input:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 5px rgba(42, 82, 152, 0.5);
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+form button:hover {
+    background: #1e3c72;
+}
+
+/* Error message */
+p {
+    color: red;
+    margin-top: 10px;
+}
+/* dashboard styling */
+
+h2 {
+    text-align: center;
+        font-weight: bold;
+
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+/* Table Styling */
+/* Logout Button */
+a[href="logout.php"] {
+
+float: right;
+margin-top: -50px;
+font-weight: bold;
+margin-right: 15px;
+    padding: 8px 15px;
+    background: #ff4d4d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+a[href="logout.php"]:hover {
+    background: #3498db;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Table Header */
+th {
+    background: #2c3e50;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Table Cells */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+/* Hover Effect */
+tr:hover {
+    background: #f1f7ff;
+}
+
+/* Delete Button */
+a[href*="delete.php"], a[href*="reply.php"] {
+    display: inline-block;
+    padding: 6px 10px;
+    background: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+
+a[href*="delete.php"]:hover {
+    background: #3498db;
+}
+
+a[href*="reply.php"]:hover {
+    background: #3498db;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    td, th {
+        padding: 8px;
+    }
+}
+
